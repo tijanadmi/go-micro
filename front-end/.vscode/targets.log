@@ -9,7 +9,7 @@ make: *** No rule to make target 'all'.  Stop.
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Fri Oct 21 20:08:57 2022
+# Make data base, printed on Fri Oct 21 20:25:24 2022
 
 # Variables
 
@@ -30,8 +30,7 @@ VSCODE_CWD = C:\Users\FX8300\AppData\Local\Programs\Microsoft VS Code
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
-SYSTEMROOT = C:\WINDO 
-WS
+SYSTEMROOT = C:\WINDOWS
 # environment
 PROCESSOR_LEVEL = 21
 # environment
@@ -43,14 +42,13 @@ GOPATH = C:\Users\FX8300\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9876_VILPGNYHJGSNLYZY
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1684_NQJGMUYYFRTLCLOR
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
-.V 
-ARIABLES := 
+.VARIABLES := 
 # automatic
 %D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
 # automatic
@@ -72,8 +70,7 @@ PROCESSOR_ARCHITEW6432 = AMD64
 # makefile
 MAKEFLAGS = pqrR
 # environment
-ONED 
-RIVE = C:\Users\FX8300\OneDrive
+ONEDRIVE = C:\Users\FX8300\OneDrive
 # makefile
 CURDIR := e:/Tijana/go-playground/go-micro/front-end
 # environment
@@ -94,9 +91,8 @@ COMMONPROGRAMW6432 = C:\Program Files\Common Files
 MAKEFILE_LIST := 
 # automatic
 @F = $(notdir $@)
- 
 # environment
-VSCODE_PID = 9876
+VSCODE_PID = 1684
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -116,8 +112,7 @@ HOMEPATH = \Users\FX8300
 # default
 MAKECMDGOALS := all
 # environment
-DRIVERDATA = C:\Windows\System32\Drive 
-rs\DriverData
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
 COMSPEC = C:\WINDOWS\system32\cmd.exe
 # environment
@@ -128,8 +123,7 @@ MAKELEVEL := 0
 MAKE = $(MAKE_COMMAND)
 # environment
 PATH = C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Users\FX8300\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft S 
-QL Server\130\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;F:\ProgramFiles\PostgreSQL\14\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Users\FX8300\AppData\Local\Microsoft\WindowsApps;C:\Users\FX8300\AppData\Roaming\npm;C:\Users\FX8300\AppData\Local\Programs\Micros 
-oft VS Code\bin;C:\Users\FX8300\go\bin
+QL Server\130\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;F:\ProgramFiles\PostgreSQL\14\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Users\FX8300\AppData\Local\Microsoft\WindowsApps;C:\Users\FX8300\AppData\Roaming\npm;C:\Users\FX8300\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\FX8300\go\bin
 # environment
 COMPUTERNAME = FX8300-PC
 # default
@@ -151,8 +145,7 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH; 
-.MSC
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # automatic
 +F = $(notdir $+)
 # environment
@@ -175,8 +168,7 @@ MAKE_VERSION := 4.3
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
 USERDOMAIN_ROAMINGPROFILE = FX8300-PC
-# environment 
-
+# environment
 NUMBER_OF_PROCESSORS = 8
 # environment
 PUBLIC = C:\Users\Public
@@ -196,8 +188,7 @@ COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\FX8300\AppData\Local\Temp
-# environment 
-
+# environment
 VSCODE_IPC_HOOK = \\.\pipe\abc96a347aa1d5b514f148df21697db9-1.72.2-main-sock
 # environment
 GOPROXY = https://proxy.golang.org,direct
@@ -214,8 +205,7 @@ SESSIONNAME = Console
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
-PROCESSOR_REVISION 
- = 0200
+PROCESSOR_REVISION = 0200
 # environment
 WINDOWS_TRACING_LOGFILE = C:\BVTBin\Tests\installpackage\csilogfile.log
 # environment
@@ -229,7 +219,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
 
 # Directories
 
-# . (key e:/Tijana/go-playground/go-micro/front-end, mtime 1666293995): 7 files, no impossibilities.
+# . (key e:/Tijana/go-playground/go-micro/front-end, mtime 1666376528): 7 files, no impossibilities.
 
 # 7 files, no impossibilities in 1 directories.
 
@@ -295,6 +285,6 @@ GNUmakefile:
 # strcache performance: lookups = 17 / hit rate = 17%
 # hash-table stats:
 # Load=14/8192=0%, Rehash=0, Collisions=0/17=0%
-# Finished Make data base on Fri Oct 21 20:08:57 2022
+# Finished Make data base on Fri Oct 21 20:25:24 2022
 
  
