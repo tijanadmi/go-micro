@@ -7,9 +7,8 @@ make: *** No rule to make target 'all'.  Stop.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Fri Oct 21 21:52:18 2022
+# Make data base, printed on Sun Oct 23 20:08:54 2022
 
 # Variables
 
@@ -42,7 +41,7 @@ GOPATH = C:\Users\FX8300\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7560_GPUISUKATCEXQHGX
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13248_TNSWZLZTBISQZAAA
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -70,8 +69,7 @@ PROCESSOR_ARCHITEW6432 = AMD64
 # makefile
 MAKEFLAGS = pqrR
 # environment
-ONED 
-RIVE = C:\Users\FX8300\OneDrive
+ONEDRIVE = C:\Users\FX8300\OneDrive
 # makefile
 CURDIR := e:/Tijana/go-playground/go-micro/front-end
 # environment
@@ -93,7 +91,7 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 7560
+VSCODE_PID = 13248
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -168,7 +166,8 @@ MAKE_VERSION := 4.3
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
 USERDOMAIN_ROAMINGPROFILE = FX8300-PC
-# environment
+# environme 
+nt
 NUMBER_OF_PROCESSORS = 8
 # environment
 PUBLIC = C:\Users\Public
@@ -205,8 +204,7 @@ SESSIONNAME = Console
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
-PROCESSOR_REVISION 
- = 0200
+PROCESSOR_REVISION = 0200
 # environment
 WINDOWS_TRACING_LOGFILE = C:\BVTBin\Tests\installpackage\csilogfile.log
 # environment
@@ -277,8 +275,7 @@ GNUmakefile:
 
 # No 'vpath' search paths.
 
-# No general 
- ('VPATH' variable) search path.
+# No general ('VPATH' variable) search path.
 
 # strcache buffers: 1 (0) / strings = 14 / storage = 113 B / avg = 8 B
 # current buf: size = 8174 B / used = 113 B / count = 14 / avg = 8 B
@@ -286,6 +283,6 @@ GNUmakefile:
 # strcache performance: lookups = 17 / hit rate = 17%
 # hash-table stats:
 # Load=14/8192=0%, Rehash=0, Collisions=0/17=0%
-# Finished Make data base on Fri Oct 21 21:52:18 2022
+# Finished Make data base on Sun Oct 23 20:08:54 2022
 
  
