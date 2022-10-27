@@ -7,8 +7,9 @@ make: *** No rule to make target 'all'.  Stop.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Thu Oct 27 11:43:53 2022
+# Make data base, printed on Thu Oct 27 14:40:42 2022
 
 # Variables
 
@@ -43,9 +44,10 @@ USERDNSDOMAIN = EMS.LOCAL
 # environment
 GOPATH = C:\Users\tijana.dmitrovic\go
 # automatic
-@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+@D = $(patsubst %/,%,$(patsubst %\, 
+%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9192_RXOIEDKTDACGSVCK
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17720_VQRXWLRWYOSFLTYL
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -99,7 +101,7 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 9192
+VSCODE_PID = 17720
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -227,7 +229,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 
 # Directories
 
-# . (key d:/go_workspace/go-micro/front-end, mtime 1666597328): 7 files, no impossibilities.
+# . (key d:/go_workspace/go-micro/front-end, mtime 1666865030): 7 files, no impossibilities.
 
 # 7 files, no impossibilities in 1 directories.
 
@@ -292,6 +294,6 @@ GNUmakefile:
 # strcache performance: lookups = 17 / hit rate = 17%
 # hash-table stats:
 # Load=14/8192=0%, Rehash=0, Collisions=0/17=0%
-# Finished Make data base on Thu Oct 27 11:43:53 2022
+# Finished Make data base on Thu Oct 27 14:40:42 2022
 
  

@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	webPort  = "8090"
+	webPort  = "80"
 	rpcPort  = "5001"
 	mongoURL = "mongodb://mongo:27017"
 	gRpcPort = "50001"
@@ -27,7 +27,9 @@ type Config struct {
 
 func main() {
 	// connect to mongo
+	fmt.Println("Before connection to Mongo")
 	mongoClient, err := connectToMongo()
+	fmt.Println("Pass connection to Mongo")
 	if err != nil {
 		log.Panic(err)
 	}
@@ -80,7 +82,7 @@ func connectToMongo() (*mongo.Client, error) {
 	clientOptions := options.Client().ApplyURI(mongoURL)
 	clientOptions.SetAuth(options.Credential{
 		Username: "admin",
-		Password: "",
+		Password: "password",
 	})
 
 	// connect
