@@ -7,12 +7,13 @@ make: *** No rule to make target 'all'.  Stop.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Mon Oct 24 13:41:54 2022
+# Make data base, printed on Thu Oct 27 11:43:53 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -44,13 +45,15 @@ GOPATH = C:\Users\tijana.dmitrovic\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15288_JMYPEDXPPCLUSEXF
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9192_RXOIEDKTDACGSVCK
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 KEAAGENT = "C:\Program Files (x86)\Kaspersky Lab\Endpoint Agent\agent.exe"
-# environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 %D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
 # automatic
@@ -61,8 +64,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 VSCODE_CODE_CACHE_PATH = C:\Users\tijana.dmitrovic\AppData\Roaming\Code\CachedData\d045a5eda657f4d7b676dedbfa7aab8207f8a075
 # environment
 LANG = C
-# 
- default
+# default
 .LOADED := 
 # environment
 TMP = C:\Users\TIJANA~1.DMI\AppData\Local\Temp
@@ -97,7 +99,7 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 15288
+VSCODE_PID = 9192
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -141,7 +143,7 @@ PROMPT = $P$G
 # environment
 CHOCOLATEYLASTPATHUPDATE = 132975243154975761
 # environment
-LOGONSERVER = \\JC-DC
+LOGONSERVER = \\EMS-DC
 # environment
 USERNAME = tijana.dmitrovic
 # environment
@@ -217,7 +219,7 @@ COR_PROFILER = {231F1B09-4696-48B3-970E-48BA5F970091}
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 # variable set hash-table stats:
-# Load=101/1024=10%, Rehash=0, Collisions=8/125=6%
+# Load=103/1024=10%, Rehash=0, Collisions=11/127=9%
 
 # Pattern-specific Variable Values
 
@@ -290,6 +292,6 @@ GNUmakefile:
 # strcache performance: lookups = 17 / hit rate = 17%
 # hash-table stats:
 # Load=14/8192=0%, Rehash=0, Collisions=0/17=0%
-# Finished Make data base on Mon Oct 24 13:41:54 2022
+# Finished Make data base on Thu Oct 27 11:43:53 2022
 
  
