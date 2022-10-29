@@ -8,7 +8,11 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
+<<<<<<< HEAD
 # Make data base, printed on Sun Oct 23 20:08:54 2022
+=======
+# Make data base, printed on Thu Oct 27 14:40:42 2022
+>>>>>>> 25fb1960575294332c3d072c22f38872c4b1ef56
 
 # Variables
 
@@ -17,37 +21,48 @@ FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_211
+# environment
 LC_ALL = C
 # environment
-WINDOWS_TRACING_FLAGS = 3
+USERPROFILE = C:\Users\tijana.dmitrovic
 # environment
-USERPROFILE = C:\Users\FX8300
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
-LOCALAPPDATA = C:\Users\FX8300\AppData\Local
+LOCALAPPDATA = C:\Users\tijana.dmitrovic\AppData\Local
 # environment
-VSCODE_CWD = C:\Users\FX8300\AppData\Local\Programs\Microsoft VS Code
+VSCODE_CWD = C:\Users\tijana.dmitrovic\AppData\Local\Programs\Microsoft VS Code
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
-SYSTEMROOT = C:\WINDOWS
+SYSTEMROOT = C:\Windows
 # environment
-PROCESSOR_LEVEL = 21
+PROCESSOR_LEVEL = 6
 # environment
-PSMODULEPATH = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # environment
-GOPATH = C:\Users\FX8300\go
-# automatic
-@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+USERDNSDOMAIN = EMS.LOCAL
 # environment
+<<<<<<< HEAD
 CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13248_TNSWZLZTBISQZAAA
+=======
+GOPATH = C:\Users\tijana.dmitrovic\go
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\, 
+%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17720_VQRXWLRWYOSFLTYL
+>>>>>>> 25fb1960575294332c3d072c22f38872c4b1ef56
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+KEAAGENT = "C:\Program Files (x86)\Kaspersky Lab\Endpoint Agent\agent.exe"
 # default
 .VARIABLES := 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 %D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
 # automatic
@@ -55,13 +70,13 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\FX8300\AppData\Roaming\Code\CachedData\d045a5eda657f4d7b676dedbfa7aab8207f8a075
+VSCODE_CODE_CACHE_PATH = C:\Users\tijana.dmitrovic\AppData\Roaming\Code\CachedData\d045a5eda657f4d7b676dedbfa7aab8207f8a075
 # environment
 LANG = C
 # default
 .LOADED := 
 # environment
-TMP = C:\Users\FX8300\AppData\Local\Temp
+TMP = C:\Users\TIJANA~1.DMI\AppData\Local\Temp
 # default
 .INCLUDE_DIRS = .
 # environment
@@ -69,9 +84,15 @@ PROCESSOR_ARCHITEW6432 = AMD64
 # makefile
 MAKEFLAGS = pqrR
 # environment
+<<<<<<< HEAD
 ONEDRIVE = C:\Users\FX8300\OneDrive
+=======
+COR_ENABLE_PROFILING = 1
+# environment
+ONEDRIVE = C:\Users\tijana.dmitrovic\OneDrive
+>>>>>>> 25fb1960575294332c3d072c22f38872c4b1ef56
 # makefile
-CURDIR := e:/Tijana/go-playground/go-micro/front-end
+CURDIR := d:/go_workspace/go-micro/front-end
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
@@ -91,13 +112,19 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
+<<<<<<< HEAD
 VSCODE_PID = 13248
+=======
+VSCODE_PID = 17720
+>>>>>>> 25fb1960575294332c3d072c22f38872c4b1ef56
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
 *F = $(notdir $*)
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # default
@@ -107,23 +134,23 @@ PROGRAMDATA = C:\ProgramData
 # default
 SHELL := sh.exe
 # environment
-HOMEPATH = \Users\FX8300
+HOMEPATH = \Users\tijana.dmitrovic
 # default
 MAKECMDGOALS := all
 # environment
 DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
-COMSPEC = C:\WINDOWS\system32\cmd.exe
+COMSPEC = C:\Windows\system32\cmd.exe
 # environment
-WINDIR = C:\WINDOWS
+WINDIR = C:\Windows
 # environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Users\FX8300\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;F:\ProgramFiles\PostgreSQL\14\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Users\FX8300\AppData\Local\Microsoft\WindowsApps;C:\Users\FX8300\AppData\Roaming\npm;C:\Users\FX8300\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\FX8300\go\bin
+PATH = C:\Oracle\oracleclient\instantclient-basic-windows.x64-19.14.0.0.0dbru\instantclient_19_14;D:\app\product\11.2.0\client_1\bin;C:\Oracle\jdk\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Kaspersky Lab\Endpoint Agent\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\Perforce\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\ProgramData\chocolatey\bin;C:\Users\tijana.dmitrovic\go\bin;C:\Program Files\PuTTY\;D:\install\mongosh-1.6.0-win32-x64\bin;C:\Program Files\PostgreSQL\14\bin;C:\Users\tijana.dmitrovic\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\tijana.dmitrovic\AppData\Local\GitHubDesktop\bin;C:\Oracle\jdk\bin;C:\Users\tijana.dmitrovic\AppData\Local\Programs\Microsoft VS Code\bin;D:\install\x86_64-7.3.0-release-posix-seh-rt_v5-rev0\mingw64\bin;C:\Oracle\oracleclient\instantclient-basic-windows.x64-19.14.0.0.0dbru\instantclient_19_14;C:\Users\tijana.dmitrovic\AppData\Roaming\npm;C:\Users\tijana.dmitrovic\go\bin
 # environment
-COMPUTERNAME = FX8300-PC
+COMPUTERNAME = R040614
 # default
 MAKEFILES := 
 # automatic
@@ -131,11 +158,11 @@ MAKEFILES :=
 # environment
 PROMPT = $P$G
 # environment
-CHOCOLATEYLASTPATHUPDATE = 132974599890924449
+CHOCOLATEYLASTPATHUPDATE = 132975243154975761
 # environment
-LOGONSERVER = \\FX8300-PC
+LOGONSERVER = \\EMS-DC
 # environment
-USERNAME = FX8300
+USERNAME = tijana.dmitrovic
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # automatic
@@ -149,15 +176,11 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-USERDOMAIN = FX8300-PC
+USERDOMAIN = EMS
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
-# environment
 OS = Windows_NT
-# environment
-FP_NO_HOST_CHECK = NO
 # makefile
 .DEFAULT_GOAL := 
 # default
@@ -165,20 +188,28 @@ MAKE_VERSION := 4.3
 # environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
+<<<<<<< HEAD
 USERDOMAIN_ROAMINGPROFILE = FX8300-PC
 # environme 
 nt
 NUMBER_OF_PROCESSORS = 8
+=======
+UATDATA = C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+# environment
+USERDOMAIN_ROAMINGPROFILE = EMS
+# environment
+NUMBER_OF_PROCESSORS = 6
+>>>>>>> 25fb1960575294332c3d072c22f38872c4b1ef56
 # environment
 PUBLIC = C:\Users\Public
 # environment
-APPDATA = C:\Users\FX8300\AppData\Roaming
+APPDATA = C:\Users\tijana.dmitrovic\AppData\Roaming
 # environment
 HOMEDRIVE = C:
 # environment
 PROCESSOR_ARCHITECTURE = x86
 # environment
-GOMODCACHE = C:\Users\FX8300\go\pkg\mod
+GOMODCACHE = C:\Users\tijana.dmitrovic\go\pkg\mod
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -186,9 +217,9 @@ COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-TEMP = C:\Users\FX8300\AppData\Local\Temp
+TEMP = C:\Users\TIJANA~1.DMI\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\abc96a347aa1d5b514f148df21697db9-1.72.2-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\cdc9d5f4b6e28ba41c68c49086b1ca4f-1.72.2-main-sock
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # default
@@ -204,13 +235,19 @@ SESSIONNAME = Console
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
+<<<<<<< HEAD
 PROCESSOR_REVISION = 0200
+=======
+PROCESSOR_REVISION = 9e0a
+>>>>>>> 25fb1960575294332c3d072c22f38872c4b1ef56
 # environment
-WINDOWS_TRACING_LOGFILE = C:\BVTBin\Tests\installpackage\csilogfile.log
+COR_PROFILER_PATH = C:\Windows\AppPatch\apppatch64\ummon.dll
 # environment
-PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
+COR_PROFILER = {231F1B09-4696-48B3-970E-48BA5F970091}
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 # variable set hash-table stats:
-# Load=98/1024=10%, Rehash=0, Collisions=9/122=7%
+# Load=103/1024=10%, Rehash=0, Collisions=11/127=9%
 
 # Pattern-specific Variable Values
 
@@ -218,7 +255,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
 
 # Directories
 
-# . (key e:/Tijana/go-playground/go-micro/front-end, mtime 1666377380): 7 files, no impossibilities.
+# . (key d:/go_workspace/go-micro/front-end, mtime 1666865030): 7 files, no impossibilities.
 
 # 7 files, no impossibilities in 1 directories.
 
@@ -283,6 +320,10 @@ GNUmakefile:
 # strcache performance: lookups = 17 / hit rate = 17%
 # hash-table stats:
 # Load=14/8192=0%, Rehash=0, Collisions=0/17=0%
+<<<<<<< HEAD
 # Finished Make data base on Sun Oct 23 20:08:54 2022
+=======
+# Finished Make data base on Thu Oct 27 14:40:42 2022
+>>>>>>> 25fb1960575294332c3d072c22f38872c4b1ef56
 
  
