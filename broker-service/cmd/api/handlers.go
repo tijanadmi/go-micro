@@ -4,7 +4,9 @@ import (
 	"bytes"
 	"encoding/json"
 	"errors"
+	"fmt"
 	"net/http"
+	"net/rpc"
 
 	"github.com/tijanadmi/broker/event"
 )
@@ -55,7 +57,8 @@ func (app *Config) HandleSubmission(w http.ResponseWriter, r *http.Request) {
 	case "auth":
 		app.authenticate(w, requestPayload.Auth)
 	case "log":
-		app.logEventViaRabbit(w, requestPayload.Log)
+		app.logItemViaRPC(w, requestPayload.Log)
+		//app.logEventViaRabbit(w, requestPayload.Log)
 		//app.logItem(w, requestPayload.Log)
 	case "mail":
 		app.sendMail(w, requestPayload.Mail)
@@ -221,4 +224,40 @@ func (app *Config) pushToQueue(name, msg string) error {
 		return err
 	}
 	return nil
+}
+
+type RPCPayload struct {
+	Name string
+	Data string
+}
+
+func (app *Config) logItemViaRPC(w http.ResponseWriter, l LogPayload) {
+	fmt.Println("enter logItemViaRPC")
+	client, err := rpc.Dial("tcp", "logger-service:5001")
+	fmt.Println("after rp.Dial")
+	if err != nil {
+		app.errorJSON(w, err)
+		return
+	}
+
+	rpcPayload := RPCPayload{
+		Name: l.Name,
+		Data: l.Data,
+	}
+
+	var result string
+	fmt.Println("before call")
+	err = client.Call("RPCServer.LogInfo", rpcPayload, &result)
+	if err != nil {
+		app.errorJSON(w, err)
+		return
+	}
+	fmt.Println("after call")
+
+	payload := jsonResponse{
+		Error:   false,
+		Message: result,
+	}
+
+	app.writeJSON(w, http.StatusAccepted, payload)
 }

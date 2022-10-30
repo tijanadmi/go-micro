@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Oct 29 21:54:49 2022
+# Make data base, printed on Sun Oct 30 19:29:32 2022
 
 # Variables
 
@@ -41,7 +41,7 @@ GOPATH = C:\Users\FX8300\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3244_ESQVUOQUBFTCOJLW
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13000_ERRTCWUDSMJAFCTN
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -89,9 +89,10 @@ COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # makefile
 MAKEFILE_LIST := 
 # automatic
-@F = $(notdir $@)
+@F = $(notdir $@) 
+
 # environment
-VSCODE_PID = 3244
+VSCODE_PID = 13000
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -111,7 +112,8 @@ HOMEPATH = \Users\FX8300
 # default
 MAKECMDGOALS := all
 # environment
-DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+DRIVERDATA = C:\Windows\System32\Dri 
+vers\DriverData
 # environment
 COMSPEC = C:\WINDOWS\system32\cmd.exe
 # environment
@@ -166,8 +168,8 @@ MAKE_VERSION := 4.3
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
 USERDOMAIN_ROAMINGPROFILE = FX8300-PC
-# environment 
-
+# environme 
+nt
 NUMBER_OF_PROCESSORS = 8
 # environment
 PUBLIC = C:\Users\Public
@@ -218,7 +220,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
 
 # Directories
 
-# . (key e:/Tijana/go-playground/go-micro/front-end, mtime 1667052843): 7 files, no impossibilities.
+# . (key e:/Tijana/go-playground/go-micro/front-end, mtime 1667073495): 7 files, no impossibilities.
 
 # 7 files, no impossibilities in 1 directories.
 
@@ -283,6 +285,6 @@ GNUmakefile:
 # strcache performance: lookups = 17 / hit rate = 17%
 # hash-table stats:
 # Load=14/8192=0%, Rehash=0, Collisions=0/17=0%
-# Finished Make data base on Sat Oct 29 21:54:49 2022
+# Finished Make data base on Sun Oct 30 19:29:32 2022
 
  
