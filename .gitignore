@@ -1,12 +1,6 @@
 .idea
 .vscode
 coverage.out
-frontApp
-loggerServiceApp
-mailServiceApp
-listenerServiceApp
-authApp
-brokerApp
 listener
 frontEndLinux
 project/db-data/postgres/
