@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Oct 30 19:29:32 2022
+# Make data base, printed on Sat Nov 05 17:11:50 2022
 
 # Variables
 
@@ -41,7 +41,7 @@ GOPATH = C:\Users\FX8300\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13000_ERRTCWUDSMJAFCTN
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_304_ARKGGPHVPOLYVAOA
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -89,10 +89,9 @@ COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # makefile
 MAKEFILE_LIST := 
 # automatic
-@F = $(notdir $@) 
-
+@F = $(notdir $@)
 # environment
-VSCODE_PID = 13000
+VSCODE_PID = 304
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -112,8 +111,7 @@ HOMEPATH = \Users\FX8300
 # default
 MAKECMDGOALS := all
 # environment
-DRIVERDATA = C:\Windows\System32\Dri 
-vers\DriverData
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
 COMSPEC = C:\WINDOWS\system32\cmd.exe
 # environment
@@ -145,7 +143,8 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.M 
+SC
 # automatic
 +F = $(notdir $+)
 # environment
@@ -168,8 +167,7 @@ MAKE_VERSION := 4.3
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
 USERDOMAIN_ROAMINGPROFILE = FX8300-PC
-# environme 
-nt
+# environment
 NUMBER_OF_PROCESSORS = 8
 # environment
 PUBLIC = C:\Users\Public
@@ -220,7 +218,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
 
 # Directories
 
-# . (key e:/Tijana/go-playground/go-micro/front-end, mtime 1667073495): 7 files, no impossibilities.
+# . (key e:/Tijana/go-playground/go-micro/front-end, mtime 1667158182): 7 files, no impossibilities.
 
 # 7 files, no impossibilities in 1 directories.
 
@@ -285,6 +283,6 @@ GNUmakefile:
 # strcache performance: lookups = 17 / hit rate = 17%
 # hash-table stats:
 # Load=14/8192=0%, Rehash=0, Collisions=0/17=0%
-# Finished Make data base on Sun Oct 30 19:29:32 2022
+# Finished Make data base on Sat Nov 05 17:11:50 2022
 
  
