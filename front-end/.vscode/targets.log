@@ -7,13 +7,12 @@ make: *** No rule to make target 'all'.  Stop.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Sat Nov 05 17:11:50 2022
+# Make data base, printed on Sat Nov 05 19:57:14 2022
 
 # Variables
 
-# environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -41,9 +40,7 @@ GOPATH = C:\Users\FX8300\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_304_ARKGGPHVPOLYVAOA
-# environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3592_WJAODTRYWMCSMYLG
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -55,7 +52,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\FX8300\AppData\Roaming\Code\CachedData\d045a5eda657f4d7b676dedbfa7aab8207f8a075
+VSCODE_CODE_CACHE_PATH = C:\Users\FX8300\AppData\Roaming\Code\CachedData\8fa188b2b301d36553cbc9ce1b0a146ccb93351f
 # environment
 LANG = C
 # default
@@ -91,7 +88,7 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 304
+VSCODE_PID = 3592
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -143,8 +140,7 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.M 
-SC
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # automatic
 +F = $(notdir $+)
 # environment
@@ -159,6 +155,8 @@ VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Too
 OS = Windows_NT
 # environment
 FP_NO_HOST_CHECK = NO
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := 
 # default
@@ -188,7 +186,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\FX8300\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\abc96a347aa1d5b514f148df21697db9-1.72.2-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\abc96a347aa1d5b514f148df21697db9-1.73.0-main-sock
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # default
@@ -206,11 +204,12 @@ SESSIONNAME = Console
 # environment
 PROCESSOR_REVISION = 0200
 # environment
-WINDOWS_TRACING_LOGFILE = C:\BVTBin\Tests\installpackage\csilogfile.log
+WINDOWS_TRACING_LOGFILE = C:\BVTBin\Tests\install 
+package\csilogfile.log
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
 # variable set hash-table stats:
-# Load=98/1024=10%, Rehash=0, Collisions=9/122=7%
+# Load=97/1024=9%, Rehash=0, Collisions=8/121=7%
 
 # Pattern-specific Variable Values
 
@@ -218,7 +217,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
 
 # Directories
 
-# . (key e:/Tijana/go-playground/go-micro/front-end, mtime 1667158182): 7 files, no impossibilities.
+# . (key e:/Tijana/go-playground/go-micro/front-end, mtime 1667673860): 7 files, no impossibilities.
 
 # 7 files, no impossibilities in 1 directories.
 
@@ -283,6 +282,6 @@ GNUmakefile:
 # strcache performance: lookups = 17 / hit rate = 17%
 # hash-table stats:
 # Load=14/8192=0%, Rehash=0, Collisions=0/17=0%
-# Finished Make data base on Sat Nov 05 17:11:50 2022
+# Finished Make data base on Sat Nov 05 19:57:14 2022
 
  
